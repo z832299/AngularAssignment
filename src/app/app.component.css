@@ -1,0 +1,51 @@
+* {
+  font-family : OpenSans ! important;
+}
+   
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .container {
+    position: absolute;
+    top: 60px;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+  }
+  
+  .sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background: rgba(240, 235, 235, 0.5);
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .content {
+    padding: 16px;
+    top: 60px;
+    bottom: 60px;
+}
+
+.content > mat-card {
+    width: 200px;
+}
+
+ 
+  
